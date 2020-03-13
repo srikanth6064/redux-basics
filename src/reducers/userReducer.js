@@ -22,7 +22,7 @@ export const asyncReducer =  (state=initialState,action)=>{
      switch(action.type){
          case 'FETCH_ALL_USERS':
              return {
-                 ...state,
+                 
                  data:action.payload
              }
              default:
